@@ -8,11 +8,11 @@ Repository: [GitHub](https://github.com/citanus006/codeinstitute-project1-Jiris-
 
 ## Project  goals
 
-Page should be useful for new and returning guests of the bar. Helping those who are new find the place and check and see what to expect, while providing nice overview what is currently on tap to those who are already familiar with the place.    
+Page should be useful for new and returning guests of the bar. Helping those who are new to find the place and check and see what to expect, while providing nice overview what is currently on tap for those who are already familiar with the place.    
 
 ## Designs and mockups
 
-Mockups and wireframes were designed using draw.io available as part of nextcloud instance running on my own server at https://nextcloud.jvitek.org. Design is intended as separate pages for each section of web presentation. 
+Mockups and wireframes were designed using draw.io available as part of nextcloud instance running on my own server at (https://nextcloud.jvitek.org). Design is intended as separate pages for each section of web presentation. 
 
 On every page should be contact information, together with address and navigation in header and footer with links to social media.  
 
