@@ -1,8 +1,8 @@
-# C.I. WebDev Course Milestone Project No.1
+## Project: Jiri's Bar
 
-##### Project: Jiri's Bar
+### CodeInstitute Full Stack development Course - Project 1
 
-### The live project page: https://citanus006.github.io/codeinstitute-project1-Jiris-bar/
+The live project page: https://citanus006.github.io/codeinstitute-project1-Jiris-bar/
 
 ### Project  goals
 
@@ -16,15 +16,15 @@ On every page should be contact information, together with address and navigatio
 
 #### Desktop version
 
-- Home page contains brief information about the bar, description of offered selection and links to subsequent pages 
+- Home page contains brief information about the bar, description of offered selection and links to subsequent pages. 
 
 <img src="assets/images/wireframes/home-page.png" alt="home page - wireframe" style="zoom: 67%;" />
 
-- On Draft page is displaying current offer together with brief information about a beverage, and it's price
+- On Draft page is displaying current offer together with brief information about a beverage, and it's price.
 
 <img src="assets/images/wireframes/on-draft.png" alt="On draft page - wireframe" style="zoom: 67%;" />
 
-- Beer tour page captures important historical facts about particular beers and ber types
+- Beer tour page captures important historical facts about particular beers and ber types.
 
 <img src="assets/images/wireframes/beer-tour.png" alt="beer tour page - wireframe" style="zoom: 67%;" />
 
@@ -33,12 +33,12 @@ On every page should be contact information, together with address and navigatio
 <img src="assets/images/wireframes/about-us.png" alt="about us page - wireframe" style="zoom: 67%;" />
 
 
-### Tablet view
+#### Table version
 
 Menu should be displayed in full, while the sidebar with opening hours, location and pictures of the place will be displayed below main content  
 <img src="assets/images/wireframes/tablet-view.png" alt="table view - wireframe" style="zoom: 67%;" />
 
-### Mobile phone view
+#### Mobile phone version
 
 Everything should be displayed in one column with a menu minimized by default. Footer will adapt as well. 
 
@@ -46,8 +46,8 @@ Everything should be displayed in one column with a menu minimized by default. F
 
 
 ### Features
-- Version control system - git
-- Documentation - this readme & git
+- Version control system - I used git without any branching strategy in order to keep it simple
+- Documentation - this readme & git history
 
 ### Features to be added
 As scope of this project is focused on HTML and CSS so I attempted to avoid using javascript and another advanced techniques used in today's webdesign.
@@ -78,7 +78,9 @@ As scope of this project is focused on HTML and CSS so I attempted to avoid usin
 Using technology available in Google Chrome browser, checking responsiveness, navigation and links. One platform at the time and ability to resize screen as well. 
  - Mobile - TBA
  - Tablet - TBA
- - Desktop - TBA
+ - Desktop (Standard screen a laptops)
+
+Test all above devices and check all buttons and links are visible can be clicked and lead to correct sections of web presentation or external sites. Verify that contact form can be used on all platforms.
 
 #### Secondary testing - Validation via available online tools
  - HTML
@@ -86,7 +88,11 @@ Using technology available in Google Chrome browser, checking responsiveness, na
  - Page load speed testing
 
 ### Deployment
-The host for this site is [Github pages](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) 
+The host for this site is [Github Pages](https://pages.github.com/) which renders github repository as publicly accessible website. Docuemntation used to make it work can be found [here](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). 
+
+### Technological limitation, obstacles and design decisions
+ - I decided to avoid manual image compression so far as it is something what is usually done during build or deployment phase and is outside of scope of this project.
+  
 
 ### Credits and references
  - TBA credit to mentor and [codeinsitute](https://codeinsitute.net/)
