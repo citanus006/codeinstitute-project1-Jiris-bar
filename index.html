@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jiri's bar - best beer in town">
+    <meta name="keywords" content="Jiri's bar, beer">
+    <meta name="author" content="Jiri Vitek">
+
+    <!-- bootstrap includes reference https://getbootstrap.com/docs/5.0/getting-started/introduction/  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="assets/styles/layout.css" rel="stylesheet" crossorigin="anonymous">
+
+    <title>Jiri's Bar | Homepage</title>
+
+    <meta name="theme-color" content="#7952b3">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container-lg">
+        <div class="navbar-header col-lg-4 ">
+            <a class="navbar-brand float-lg-end float-md-start" href="#">Jiri's bar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"
+                    aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse col-lg-8" id="mainMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">On draft</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Beer tour</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" role="button" data-bs-aria-expanded="false">About us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Begin page content -->
+<main>
+    <div class="container-lg">
+        <div class="row ">
+            <div class="col-lg-8 order-lg-2">
+                <article>
+                    <p>Content</p>
+                </article>
+            </div>
+            <div class="col-lg-4 order-lg-1">
+                <section class="float-lg-end float-md-start">
+                    <p>side bar</p>
+                </section>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-lg-4 offset-lg-4 col-md-8 col-sm-12">
+                <div class="row ">
+                    <div class="col-lg-6 col-md-4 col-sm-6">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">On draft</a></li>
+                                <li><a href="#">Beer tour</a></li>
+                                <li><a href="#">About us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-6 col-md-4 col-sm-6">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">RateBeer</a></li>
+                                <li><a href="#">UnTapped</a></li>
+                                <li><a href="#">Tripadvisor</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <p>* Due to new Government corona measures, we are closed for the time being. <br />
+                    We ask for your understanding an co-operation and let’s hope we can enjoy a beer together again soon
+                    under normal circumstances.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+</html>
