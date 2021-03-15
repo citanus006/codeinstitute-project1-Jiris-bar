@@ -12,6 +12,8 @@
           integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link href="assets/styles/layout.css" rel="stylesheet" crossorigin="anonymous">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
     <title>Jiri's Bar | Homepage</title>
 
     <meta name="theme-color" content="#7952b3">
@@ -24,7 +26,7 @@
             <a class="navbar-brand float-lg-end float-md-start" href="#">Jiri's bar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"
                     aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">Toggle</span>
             </button>
         </div>
         <div class="collapse navbar-collapse col-lg-8" id="mainMenu">
@@ -44,7 +46,7 @@
 </nav>
 
 <!-- Begin page content -->
-<main class="flex-shrink-0">
+<main class="flex-shrink-0" id="mainWrapper">
     <div class="container-lg">
         <div class="row m-0">
             <div class="col-lg-8 order-lg-2" id="mainContent">
@@ -52,8 +54,8 @@
                     <p>Content</p>
                 </article>
             </div>
-            <div class="col-lg-4 order-lg-1">
-                <section class="float-lg-end float-md-start" id="sidebar">
+            <div class="col-lg-4 order-lg-1" id="sidebar">
+                <section class="float-lg-end float-md-start">
                     <p>side bar</p>
                 </section>
             </div>
@@ -88,7 +90,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <p>* Due to new Government corona measures, we are closed for the time being. <br />
+                <p id="footerWarning">* Due to new Government corona measures, we are closed for the time being. <br/>
                     We ask for your understanding an co-operation and let’s hope we can enjoy a beer together again soon
                     under normal circumstances.</p>
             </div>
