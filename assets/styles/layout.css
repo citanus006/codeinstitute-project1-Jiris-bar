@@ -1,0 +1,41 @@
+body {
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+#sidebar {
+    color: #999999;
+}
+
+/* menu and logo styles */
+.navbar { /*remove padding to allow connected borders*/
+    padding-bottom: 0;
+    padding-top: 0;
+    height: 5em;
+}
+
+body > nav {
+    background-color: #208d75;
+    border-bottom: 1px solid #fff;
+}
+
+nav #mainMenu {
+    border-left: 1px solid #fff;
+    height: 5em;
+}
+/* menu buttons */
+body > nav ul {
+    display: table;
+}
+
+body > nav li a.nav-link {
+    vertical-align: bottom;
+    height: 5em;
+    padding: 0;
+    line-height: 8em;
+}
+
+body > nav .nav-link, body > nav .navbar-brand{
+    color: #fff;
+}
+
