@@ -17,15 +17,25 @@ body {
 body > nav {
     background-color: #208d75;
     border-bottom: 1px solid #fff;
+    background: linear-gradient(180deg, rgba(32,115,87,1) 0%, rgba(42,141,117,1) 8px, rgba(42,141,117,1) 100%);
 }
 
 nav #mainMenu {
     border-left: 1px solid #fff;
     height: 5em;
 }
+
+nav #mainLogo {
+    background-color: #1f7055;
+    background: linear-gradient(180deg, #195943 0%, #1f7055 8px, #1f7055 100%);
+
+    height: 5em;
+    border-bottom: 1px solid #fff;
+}
+
 /* menu buttons */
 body > nav ul {
-    display: table;
+
 }
 
 body > nav li a.nav-link {
@@ -37,5 +47,17 @@ body > nav li a.nav-link {
 
 body > nav .nav-link, body > nav .navbar-brand{
     color: #fff;
+}
+
+/* main content*/
+
+#mainContent {
+       background-color: #208d75;
+
+       background: linear-gradient(180deg, rgba(32,115,87,1) 0%, rgba(42,141,117,1) 8px, rgba(42,141,117,1) 100%);
+}
+
+footer {
+    background-color: #1f7055;
 }
 
