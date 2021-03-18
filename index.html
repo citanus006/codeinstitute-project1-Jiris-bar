@@ -24,7 +24,7 @@
 <nav class="navbar navbar-expand-sm">
     <div class="container-lg">
         <div class="navbar-header col-lg-4 " id="mainLogo">
-            <a class="navbar-brand float-lg-end float-md-start" href="#">Jiri's bar</a>
+            <a class="navbar-brand float-lg-end float-md-start" href="#Home">Jiri's bar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"
                     aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">Toggle</span>
@@ -33,13 +33,13 @@
         <div class="collapse navbar-collapse col-lg-8" id="mainMenu">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">On draft</a>
+                    <a class="nav-link" aria-current="page" href="#OnDraf">On draft</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Beer tour</a>
+                    <a class="nav-link" href="#BeerTour">Beer tour</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" role="button" data-bs-aria-expanded="false">About us</a>
+                    <a class="nav-link" href="#AboutUs" role="button" data-bs-aria-expanded="false">About us</a>
                 </li>
             </ul>
         </div>
@@ -51,7 +51,26 @@
     <div class="container-lg">
         <div class="row m-0">
             <div class="col-lg-8 order-lg-2" id="mainContent">
-                <article>
+                <article id="Home">
+                    <h1 class="veryFirstHeading">Welcome to our pub</h1>
+                    <p>Welcome to our pub
+                        Our pub has a unique character, where local and international beers and guests meet. People not
+                        only from Ireland, but beer lovers from all over the world come to my pub for the exquisite
+                        selections of beers and the intimate atmosphere. With 25 beers on draft from all over the world
+                        on draft and more than 300 beers on bottle and can, you can enjoy a good beer in our bar or on
+                        our lovely terrace.</p>
+                </article>
+
+                <article id="OnDraft">
+                    <h1>Beers on tap</h1>
+                </article>
+
+                <article id="BeerTour">
+                    <h1> Beer tour (history of beer)</h1>
+                </article>
+
+                <article id="AboutUs">
+                    <h1>About us</h1>
                     <p>Content</p>
                 </article>
             </div>
@@ -60,9 +79,8 @@
                     <h2>Where you can find us:</h2>
                     <p>
                         Pope's quay 999 <br/>
-                        Cork city<br/>
-                        Ireland <br/>
-                        <a href="#maps" title="Google maps" class="material-icons">add_location</a>
+                        Cork city, Ireland <a href="https://www.google.com/maps" title="Google maps"
+                                              target="_blank"><span class="material-icons">add_location</span></a>
                     </p>
 
                     <h2>Opening hours:</h2>
@@ -80,6 +98,8 @@
                             <td>3:00pm - 10:00pm</td>
                         </tr>
                     </table>
+
+                    <img src="assets/images/website/inside-pub.jpeg" width="200px" alt="View of the bar from inside" />
                 </aside>
             </div>
         </div>
@@ -93,10 +113,10 @@
                     <div class="col-lg-6 col-md-4 col-sm-6">
                         <nav>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">On draft</a></li>
-                                <li><a href="#">Beer tour</a></li>
-                                <li><a href="#">About us</a></li>
+                                <li><a href="#Home">Home</a></li>
+                                <li><a href="#OnDraf">On draft</a></li>
+                                <li><a href="#BeerTour">Beer tour</a></li>
+                                <li><a href="#AboutUs">About us</a></li>
                             </ul>
                         </nav>
                     </div>
