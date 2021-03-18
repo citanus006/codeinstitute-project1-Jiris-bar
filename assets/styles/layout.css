@@ -8,31 +8,43 @@ body {
     color: #999999;
 }
 
-/* menu and logo styles */
-.navbar { /*remove padding to allow connected borders*/
-    padding-bottom: 0;
-    padding-top: 0;
-    height: 5em;
-}
+/* apply navbar styles on all screens bigger then small */
+@media (min-width: 576px) {
 
-body > nav {
-    background-color: #208d75;
-    border-bottom: 1px solid #fff;
-    background: linear-gradient(180deg, #207357 0%, #2a8d75 8px, #2a8d75 100%);
-}
 
-nav #mainMenu {
-    border-left: 1px solid #fff;
-    height: 5em;
-}
+    /* menu and logo styles */
+    .navbar { /*remove padding to allow connected borders*/
+        padding-bottom: 0;
+        padding-top: 0;
+        height: 5em;
+    }
 
-nav #mainLogo {
-    background-color: #1f7055;
-    background: linear-gradient(180deg, #195943 0%, #1f7055 8px, #1f7055 100%);
-    height: 5em;
-    border-bottom: 1px solid #fff;
-}
+    body > nav {
+        background-color: #208d75;
+        border-bottom: 1px solid #fff;
+        background: linear-gradient(180deg, #207357 0%, #2a8d75 8px, #2a8d75 100%);
+    }
 
+    nav #mainMenu {
+        border-left: 1px solid #fff;
+        height: 5em;
+    }
+
+    nav #mainLogo {
+        background-color: #1f7055;
+        background: linear-gradient(180deg, #195943 0%, #1f7055 8px, #1f7055 100%);
+        height: 5em;
+        border-bottom: 1px solid #fff;
+    }
+
+    body > nav li a.nav-link {
+        vertical-align: bottom;
+        height: 5em;
+        padding: 0;
+        line-height: 8.5em;
+    }
+
+}
 /* menu buttons */
 body > nav ul {
     border-bottom: 1px solid #fff;
@@ -44,10 +56,6 @@ body > nav ul li:hover {
 }
 
 body > nav li a.nav-link {
-    vertical-align: bottom;
-    height: 5em;
-    padding: 0;
-    line-height: 8.5em;
     text-transform: capitalize;
 }
 
