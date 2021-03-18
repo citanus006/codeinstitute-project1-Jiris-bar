@@ -49,18 +49,18 @@ Everything should be displayed in one column with a menu minimized by default. F
 
 ## Features
 - Version control system - I used git without any branching strategy in order to keep it simple
+- HTML & CSS layout
 - Documentation - this readme & git history
+- Drop down menu for mobile devices
+- UX and responsiveness
+- Github remote repository
 
 ## Features to be added
 As scope of this project is focused on HTML and CSS so I attempted to avoid using javascript and another advanced techniques used in today's webdesign.
- - HTML & CSS layout
- - Drop down menu for mobile devices 
  - Icons
  - Pictures
  - Social networks links   
  - Contact form - Google form
- - UX and responsiveness
- - github remote repository
  - Documentation - licence (pick one from creative commons)
 
 ## Technologies used:
@@ -72,14 +72,15 @@ As scope of this project is focused on HTML and CSS so I attempted to avoid usin
  - [HTML](https://validator.w3.org/) & [CSS](https://jigsaw.w3.org/css-validator/) Validation
  - [Github](https://www.github.com/) - distributed version control hosting used from this project
  - [Github Pages](https://pages.github.com/) - Used as hosting for this project 
+ - [Google Fonts](https://fonts.google.com/) - Used to guarantee that same font will be used on all platforms. Also used as source of certain icons used in page.
+ - 
  
 ## Testing
 
 ### Primary testing using Google Chrome's developer tools.
 
 Using technology available in Google Chrome browser, checking responsiveness, navigation and links. One platform at the time and ability to resize screen as well. 
- - Mobile - TBA
- - Tablet - TBA
+ - Mobile & Tablet - I used testing in browser developer tools via device toolbat
  - Desktop (Standard screen a laptops)
 
 Test all above devices and check all buttons and links are visible can be clicked and lead to correct sections of web presentation or external sites. Verify that contact form can be used on all platforms.
@@ -94,7 +95,7 @@ The host for this site is [Github Pages](https://pages.github.com/) which render
 
 ## Technological limitation, obstacles and design decisions
  - I decided to avoid manual image compression so far as it is something what is usually done during build or deployment phase and is outside of scope of this project.
-  
+ - I decided to use one long page layout instead of individual pages per menu item 
 
 ## Credits and references
  - TBA credit to mentor and [codeinsitute](https://codeinsitute.net/)
