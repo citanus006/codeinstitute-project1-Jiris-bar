@@ -4,10 +4,25 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.navbar { /*remove padding to allow connected borders*/
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+body > nav {
+    background-color: #208d75;
+    border-bottom: 1px solid #fff;
+    background: linear-gradient(180deg, #207357 0%, #2a8d75 8px, #2a8d75 100%);
+}
+
+nav #mainLogo {
+    background-color: #1f7055;
+    background: linear-gradient(180deg, #195943 0%, #1f7055 8px, #1f7055 100%);
+    height: 3em;
+}
+
 /* apply navbar styles on all screens bigger then small */
 @media (min-width: 576px) {
-
-
     /* menu and logo styles */
     .navbar { /*remove padding to allow connected borders*/
         padding-bottom: 0;
@@ -15,22 +30,14 @@ body {
         height: 5em;
     }
 
-    body > nav {
-        background-color: #208d75;
+    nav #mainLogo {
         border-bottom: 1px solid #fff;
-        background: linear-gradient(180deg, #207357 0%, #2a8d75 8px, #2a8d75 100%);
+        height: 5em;
     }
 
     nav #mainMenu {
         border-left: 1px solid #fff;
         height: 5em;
-    }
-
-    nav #mainLogo {
-        background-color: #1f7055;
-        background: linear-gradient(180deg, #195943 0%, #1f7055 8px, #1f7055 100%);
-        height: 5em;
-        border-bottom: 1px solid #fff;
     }
 
     body > nav li a.nav-link {
@@ -41,25 +48,42 @@ body {
         font-size: 1em;
     }
 
-}
-/* menu buttons */
-body > nav ul {
-    border-bottom: 1px solid #fff;
+    /* menu buttons */
+    body > nav ul {
+        border-bottom: 1px solid #fff;
+    }
+
+    body > nav ul li:hover {
+        background-color: #2ea084;
+        background: linear-gradient(180deg, #207357 0%, #2ea084 8px, #2ea084 100%);
+    }
 }
 
-body > nav ul li:hover {
-    background-color: #2ea084;
-    background: linear-gradient(180deg, #207357 0%, #2ea084 8px, #2ea084 100%);
+/*menu styling on small screens*/
+@media (max-width: 575.98px) {
+    nav #mainLogo {
+        width: 100%;
+    }
+    nav #mainLogo {
+        padding: 5px;
+    }
+
+    nav #mainLogo button {
+        float: right;
+    }
+
+    body > nav ul li {
+        border-top: 1px solid #fff;
+    }
+
+    body > nav ul li:hover {
+        background-color: #2ea084;
+    }
 }
 
 body > nav li a.nav-link {
     text-transform: capitalize;
 }
-
-body > nav .nav-link, body > nav .navbar-brand{
-    color: #fff;
-}
-
 
 /* main content*/
 
@@ -67,6 +91,7 @@ body > nav .nav-link, body > nav .navbar-brand{
     background-color: #208d75;
     background: linear-gradient(180deg, #207357 0%, #2a8d75 8px, #2a8d75 100%);
     padding-right:0;
+    padding-left: 25px;
 }
 
 #mainWrapper #sidebar {
@@ -130,6 +155,7 @@ article h1.veryFirstHeading {
 
 article p {
     font-size: 0.8em;
+    padding-right: 25px;
 }
 
 footer {
@@ -145,6 +171,14 @@ footer ul li {
 footer a {
     color: #b7bfce;
     text-decoration:none;
+    font-size: 0.8em;
+}
+
+/* change footer links only on non-small screens*/
+@media (min-width: 576px) {
+    footer a {
+        font-size: 0.8em;
+    }
 }
 
 footer a:hover {
@@ -153,7 +187,8 @@ footer a:hover {
 }
 
 footer #footerWarning {
-    font-size: 0.6em;
+    font-size: 0.65em;
+    padding-right: 25px;
 }
 
 
