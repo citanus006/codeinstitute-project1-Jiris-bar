@@ -98,4 +98,8 @@ The host for this site is [Github Pages](https://pages.github.com/) which render
  - I decided to use one long page layout instead of individual pages per menu item 
 
 ## Credits and references
+ - Wikipedia for articles about beer:
+    - https://en.wikipedia.org/wiki/History_of_beer
+    - https://en.wikipedia.org/wiki/Beer_in_Belgium
+    - https://en.wikipedia.org/wiki/Beer_in_Germany
  - TBA credit to mentor and [codeinsitute](https://codeinsitute.net/)
