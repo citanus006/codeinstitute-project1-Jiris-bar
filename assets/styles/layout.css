@@ -122,8 +122,9 @@ aside h2,aside img {
 aside p, aside table{
     font-size: 0.8em;
     margin: 0.3em;
-    margin-left: 35px;
+    margin-left: 2.7em;
     margin-top: 0.5em;
+    margin-bottom: 1.3em;
 }
 
 aside img {
@@ -195,3 +196,47 @@ footer #footerWarning {
 }
 
 
+/*
+ *
+ * styles for particular articles
+ *
+ */
+
+/* box with beers per category */
+#OnDraft .row {
+    margin:0;
+    margin-left:-0.5em;
+}
+#OnDraft .row > div {
+    padding: 0.5em;
+    padding-right:25px;
+}
+
+#OnDraft .row > div div{
+    border:1px solid #ffffff99;
+}
+
+#OnDraft .row > div div h2 {
+    border: 0;
+    padding-left: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-transform: capitalize;
+    opacity: 0.8;
+    font-size: 0.8em;
+}
+
+#OnDraft .row > div div ul {
+    font-size: 0.8em;
+}
+
+#OnDraft .row > div div ul li em{
+    padding-left: 0.5em;
+    color: #ffffff99;
+}
+
+#OnDraft .row > div div ul li span.price {
+    padding-left: 0.5em;
+    font-size: 0.85em;
+    color: #ffffffee;
+}
