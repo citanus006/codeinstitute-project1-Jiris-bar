@@ -54,13 +54,13 @@ Everything should be displayed in one column with a menu minimized by default. F
 - Drop down menu for mobile devices
 - UX and responsiveness
 - Github remote repository
+- Social networks links (blank links to home pages of each network)
+- Icons (used for map icon)
+- Contact form - Form Spark
 
 ## Features to be added
 As scope of this project is focused on HTML and CSS so I attempted to avoid using javascript and another advanced techniques used in today's webdesign.
- - Icons
- - Pictures
- - Social networks links   
- - Contact form - Google form
+
  - Documentation - licence (pick one from creative commons)
 
 ## Technologies used:
@@ -73,15 +73,15 @@ As scope of this project is focused on HTML and CSS so I attempted to avoid usin
  - [Github](https://www.github.com/) - distributed version control hosting used from this project
  - [Github Pages](https://pages.github.com/) - Used as hosting for this project 
  - [Google Fonts](https://fonts.google.com/) - Used to guarantee that same font will be used on all platforms. Also used as source of certain icons used in page.
- - 
+ - [Formspark](https://formspark.io/) - Used as hosting for contact form
  
 ## Testing
 
 ### Primary testing using Google Chrome's developer tools.
 
 Using technology available in Google Chrome browser, checking responsiveness, navigation and links. One platform at the time and ability to resize screen as well. 
- - Mobile & Tablet - I used testing in browser developer tools via device toolbat
- - Desktop (Standard screen a laptops)
+ - Mobile & Tablet - I used testing in browser developer tools via device toolbar
+ - Desktop (tested on standard screen a laptop)
 
 Test all above devices and check all buttons and links are visible can be clicked and lead to correct sections of web presentation or external sites. Verify that contact form can be used on all platforms.
 
@@ -91,15 +91,17 @@ Test all above devices and check all buttons and links are visible can be clicke
  - Page load speed testing
 
 ## Deployment
-The host for this site is [Github Pages](https://pages.github.com/) which renders github repository as publicly accessible website. Docuemntation used to make it work can be found [here](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). 
+The host for this site is [Github Pages](https://pages.github.com/) which renders github repository as publicly accessible website. Documentation used to make it work can be found [here](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). 
 
 ## Technological limitation, obstacles and design decisions
  - I decided to avoid manual image compression so far as it is something what is usually done during build or deployment phase and is outside of scope of this project.
  - I decided to use one long page layout instead of individual pages per menu item 
+ - I decided not to add pictures of every single beer as those would be too time-consuming without sever adjustment in graphical programs
 
 ## Credits and references
  - Wikipedia for articles about beer:
     - https://en.wikipedia.org/wiki/History_of_beer
     - https://en.wikipedia.org/wiki/Beer_in_Belgium
     - https://en.wikipedia.org/wiki/Beer_in_Germany
- - TBA credit to mentor and [codeinsitute](https://codeinsitute.net/)
+ - credit to my mentor [Oluwafemi Medale
+   ](https://www.linkedin.com/in/omedale/?originalSubdomain=ng) and [codeinsitute](https://codeinsitute.net/)
