@@ -246,6 +246,15 @@ footer #footerWarning {
     color: #ffffffee;
 }
 
+/* align beer price to right on extra large screens */
+@media (min-width: 1200px) {
+    #OnDraft .row > div div ul li span.price {
+        float: right;
+        clear: left;
+        padding-left: 0.2em;
+        padding-right: 1em;
+    }
+}
 
 #BeerTour .row > div h2 {
     text-transform: capitalize;
@@ -261,6 +270,7 @@ footer #footerWarning {
 #BeerTour .row > div ol {
     font-size: 0.78em;
     opacity: 0.95;
+    margin-right: 25px;
 }
 
 #BeerTour .row > div ol li{
@@ -275,4 +285,38 @@ footer #footerWarning {
 
 #BeerTour .row > div p.sourceOfInformation a {
     color: #ffffff88;
+}
+
+#BeerTour .row > div p.sourceOfInformation a:hover {
+    color: #ffffffaa;
+}
+
+#AboutUs {
+    margin-right: 25px;
+}
+#AboutUs h1 {
+    margin-bottom: 1.5em;
+}
+
+#AboutUs form input, #AboutUs form textarea{
+    font-size: 0.8em;
+        padding-left:6px;
+        padding-right:6px;
+}
+
+#AboutUs form label {
+    font-size: 0.8em;
+}
+
+#AboutUs form button {
+    font-size: 0.8em;
+    border-color: #1c634c;
+    background-color: #1f7055;
+    padding: 4px;
+    padding-left:6px;
+    padding-right:6px;
+}
+
+#AboutUs {
+    margin-bottom: 5em;
 }
