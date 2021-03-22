@@ -116,7 +116,7 @@ Test all above devices and check all buttons and links are visible can be clicke
  13. Checked responsiveness and design of whole page on all expected devices and committed adjustments.
  14. Checked page in validators and committed adjustments.
  15. Updated this readme with the latest modifications and screenshots of final product.
- 
+ 16. Tested and adjusted contact form.
 
  
 
@@ -129,7 +129,8 @@ The host for this site is [Github Pages](https://pages.github.com/) which render
  - I decided not to add pictures of every single beer as those would be too time-consuming without sever adjustment in graphical programs
  - I decided not to create my own logo for the bar as I ran out of time - original idea was infographic of beer glass and tap
  - Site is missing style sheet for printing
- - ite is missing optimisation for screen readers and accessibility 
+ - Site is missing optimisation for screen readers and accessibility
+ - contact form redirect after submission is leading to empty page
 
 ## Credits and references
  - Wikipedia for articles about beer:
