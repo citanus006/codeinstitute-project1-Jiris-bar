@@ -183,7 +183,7 @@ footer a {
 @media (max-width: 575.98px) {
     footer a {
         font-size: 1em;
-        font-decoration:underline;
+        text-decoration: underline;
         color: #c7c9de;
     }
 }

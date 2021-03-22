@@ -85,9 +85,28 @@ Using technology available in Google Chrome browser, checking responsiveness, na
 Test all above devices and check all buttons and links are visible can be clicked and lead to correct sections of web presentation or external sites. Verify that contact form can be used on all platforms.
 
 ### Secondary testing - Validation via available online tools
- - HTML - passed
- - CSS
- - Page load speed testing
+ - HTML - passed - [Validator W3.org] (https://validator.w3.org/nu/?doc=https%3A%2F%2Fcitanus006.github.io%2Fcodeinstitute-project1-Jiris-bar%2F)
+ - CSS - developed code passed test. However, external resources (Bootstrap 5 did not) - [Jigsaw W3.org](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcitanus006.github.io%2Fcodeinstitute-project1-Jiris-bar%2F%23AboutUs&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
+ - Page load speed testing - score 90/100 [Google's PageSpeed Onsights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fcitanus006.github.io%2Fcodeinstitute-project1-Jiris-bar%2F%23AboutUs)
+
+## Development process
+ 1. Created wire frames in order to get picture how my responsive layout should look like and how particular sections will be resizing and folding. 
+ 2. Secondly I designed the responsive layout using Bootstrap 5 grid system on paper.
+ 3. Implemented responsive layout using own html and css together with bootstrap 5 grid system and columns.
+ 4. Tested my layout for all expected device types - mobile, tablet and screen - all worked after some tunning.   
+ 5. Styled my layout using color scheme I chose.
+ 6. Created side bar and styled it.
+ 7. Optimized navigation bar and made it working on mobile devices.
+ 8. Styled first content page - headers and paragraphs.
+ 9. Created and styled on tap beer page and tested its responsiveness on all device types.
+ 10. Created and styled on beer tour page menu and tested its responsiveness on all device types.
+ 11. Picked Formspark over Google forms as contact form provider as it allows custom forms and utilize hosted service only as backend.
+ 12. Implemented contact form and styled it
+ 13. Checked responsiveness and design of whole page on all expected devices and commited adjustments.
+ 14. Checked page in validators and committed adjustments.
+ 15. Updated this readme with the latest modifications.
+
+ 
 
 ## Deployment
 The host for this site is [Github Pages](https://pages.github.com/) which renders github repository as publicly accessible website. Documentation used to make it work can be found [here](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). 
@@ -96,6 +115,7 @@ The host for this site is [Github Pages](https://pages.github.com/) which render
  - I decided to avoid manual image compression so far as it is something what is usually done during build or deployment phase and is outside of scope of this project.
  - I decided to use one long page layout instead of individual pages per menu item 
  - I decided not to add pictures of every single beer as those would be too time-consuming without sever adjustment in graphical programs
+ - I decided not to create my own logo for the bar as I ran out of time - original idea was infographic of beer glass and tap
 
 ## Credits and references
  - Wikipedia for articles about beer:
