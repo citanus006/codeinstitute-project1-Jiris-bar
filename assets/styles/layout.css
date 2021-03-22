@@ -132,6 +132,10 @@ aside img {
     border: 1px #666666 solid;
 }
 
+article {
+    margin-bottom: 2em;
+}
+
 article h1 {
     font-size: 0.8em;
     width: 100%;
@@ -213,7 +217,7 @@ footer #footerWarning {
 }
 
 #OnDraft .row > div div{
-    border:1px solid #ffffff99;
+    border:1px solid #ffffff44;
 }
 
 #OnDraft .row > div div h2 {
@@ -231,12 +235,44 @@ footer #footerWarning {
 }
 
 #OnDraft .row > div div ul li em{
-    padding-left: 0.5em;
+    padding-left: 0.7em;
     color: #ffffff99;
+    font-size: 0.9em;
 }
 
 #OnDraft .row > div div ul li span.price {
-    padding-left: 0.5em;
-    font-size: 0.85em;
+    padding-left: 0.7em;
+    font-size: 0.9em;
     color: #ffffffee;
+}
+
+
+#BeerTour .row > div h2 {
+    text-transform: capitalize;
+    font-size: 0.9em;
+    margin-top: 1em;
+}
+
+#BeerTour .row > div p {
+    font-size: 0.78em;
+    margin-bottom: 1.4em;
+    opacity: 0.95;
+}
+#BeerTour .row > div ol {
+    font-size: 0.78em;
+    opacity: 0.95;
+}
+
+#BeerTour .row > div ol li{
+    padding-left: 1em;
+}
+
+#BeerTour .row > div p.sourceOfInformation {
+    text-align: right;
+    font-size: 0.8em;
+    margin-top: -0.4em;
+}
+
+#BeerTour .row > div p.sourceOfInformation a {
+    color: #ffffff88;
 }
