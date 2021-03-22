@@ -128,6 +128,8 @@ The host for this site is [Github Pages](https://pages.github.com/) which render
  - I decided to use one long page layout instead of individual pages per menu item 
  - I decided not to add pictures of every single beer as those would be too time-consuming without sever adjustment in graphical programs
  - I decided not to create my own logo for the bar as I ran out of time - original idea was infographic of beer glass and tap
+ - Site is missing style sheet for printing
+ - ite is missing optimisation for screen readers and accessibility 
 
 ## Credits and references
  - Wikipedia for articles about beer:
