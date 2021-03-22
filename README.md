@@ -85,7 +85,7 @@ Using technology available in Google Chrome browser, checking responsiveness, na
 Test all above devices and check all buttons and links are visible can be clicked and lead to correct sections of web presentation or external sites. Verify that contact form can be used on all platforms.
 
 ### Secondary testing - Validation via available online tools
- - HTML
+ - HTML - passed
  - CSS
  - Page load speed testing
 
