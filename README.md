@@ -96,7 +96,7 @@ Using technology available in Google Chrome browser, checking responsiveness, na
 Test all above devices and check all buttons and links are visible can be clicked and lead to correct sections of web presentation or external sites. Verify that contact form can be used on all platforms.
 
 ### Secondary testing - Validation via available online tools
- - HTML - passed - [Validator W3.org] (https://validator.w3.org/nu/?doc=https%3A%2F%2Fcitanus006.github.io%2Fcodeinstitute-project1-Jiris-bar%2F)
+ - HTML - passed - [Validator W3.org](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcitanus006.github.io%2Fcodeinstitute-project1-Jiris-bar%2F)
  - CSS - developed code passed test. However, external resources (Bootstrap 5 did not) - [Jigsaw W3.org](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcitanus006.github.io%2Fcodeinstitute-project1-Jiris-bar%2F%23AboutUs&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
  - Page load speed testing - score 90/100 [Google's PageSpeed Onsights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fcitanus006.github.io%2Fcodeinstitute-project1-Jiris-bar%2F%23AboutUs)
 
@@ -113,9 +113,10 @@ Test all above devices and check all buttons and links are visible can be clicke
  10. Created and styled on beer tour page menu and tested its responsiveness on all device types.
  11. Picked Formspark over Google forms as contact form provider as it allows custom forms and utilize hosted service only as backend.
  12. Implemented contact form and styled it
- 13. Checked responsiveness and design of whole page on all expected devices and commited adjustments.
+ 13. Checked responsiveness and design of whole page on all expected devices and committed adjustments.
  14. Checked page in validators and committed adjustments.
- 15. Updated this readme with the latest modifications.
+ 15. Updated this readme with the latest modifications and screenshots of final product.
+ 
 
  
 
