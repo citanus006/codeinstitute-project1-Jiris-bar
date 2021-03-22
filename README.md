@@ -46,6 +46,17 @@ Everything should be displayed in one column with a menu minimized by default. F
 
 <img src="assets/images/wireframes/mobile-view.png" alt="mobile phone view - wireframe" style="zoom: 67%;" />
 
+## Final design - screenshots
+
+## Computer screen version
+<img src="assets/images/screenshots/screen-view.png" alt="Computer screen view - screenshot" style="zoom: 67%;" />
+
+## Tablet version
+<img src="assets/images/screenshots/tablet-view.png" alt="tablet view - screenshot" style="zoom: 67%;" />
+
+## Mobile phone version
+<img src="assets/images/screenshots/mobile-view.png" alt="mobile phone view - screenshot" style="zoom: 67%;" />
+
 
 ## Features
 - Version control system - I used git without any branching strategy in order to keep it simple
