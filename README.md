@@ -62,7 +62,7 @@ Everything should be displayed in one column with a menu minimized by default. F
 - Version control system - I used git without any branching strategy in order to keep it simple
 - HTML & CSS layout
 - Documentation - this readme & git history
-- Documentation - licence (pick one from creative commons)
+- Documentation - licence
 - Drop down menu for mobile devices
 - UX and responsiveness
 - Github remote repository
