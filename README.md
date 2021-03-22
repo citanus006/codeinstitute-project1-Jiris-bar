@@ -51,6 +51,7 @@ Everything should be displayed in one column with a menu minimized by default. F
 - Version control system - I used git without any branching strategy in order to keep it simple
 - HTML & CSS layout
 - Documentation - this readme & git history
+- Documentation - licence (pick one from creative commons)
 - Drop down menu for mobile devices
 - UX and responsiveness
 - Github remote repository
@@ -60,8 +61,6 @@ Everything should be displayed in one column with a menu minimized by default. F
 
 ## Features to be added
 As scope of this project is focused on HTML and CSS so I attempted to avoid using javascript and another advanced techniques used in today's webdesign.
-
- - Documentation - licence (pick one from creative commons)
 
 ## Technologies used:
  - [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Structure and semantic content
